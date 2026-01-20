@@ -73,30 +73,30 @@ var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
 
-bot.sendMessage(chatId, `*🤖 ANDROID H4CK — Return of SHINITA*
-_⚔️ Cosmic Warrior Intelligence Bot ⚔️_
+bot.sendMessage(chatId, `🤖 𝐀𝐍𝐃𝐑𝐎𝐈𝐃 𝐇4𝐂𝐊 — 𝐑𝐄𝐓𝐔𝐑𝐍 𝐎𝐅 𝐒𝐇𝐈𝐍𝐈𝐓𝐀
+_⚔️ 𝐂𝐎𝐒𝐌𝐈𝐂 𝐖𝐀𝐑𝐑𝐈𝐎𝐑 𝐈𝐍𝐓𝐄𝐋𝐋𝐈𝐆𝐄𝐍𝐂𝐄 𝐁𝐎𝐓  ⚔️_
 
 ━━━━━━━━━━━━━━━━━━
-👋 Welcome, ${msg.chat.first_name}!
+👋 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 , ${msg.chat.first_name}!
 ━━━━━━━━━━━━━━━━━━
 
-This bot helps you generate smart tracking links to analyze user engagement and technical data.
+TᕼIՏ ᗷOT ᕼᗴᒪᑭՏ YOᑌ ᘜᗴᑎᗴᖇᗩTᗴ ՏᗰᗩᖇT TᖇᗩᑕKIᑎᘜ ᒪIᑎKՏ TO ᗩᑎᗩᒪYᘔᗴ ᑌՏᗴᖇ ᗴᑎᘜᗩᘜᗴᗰᗴᑎT & TᗴᑕᕼᑎIᑕᗩᒪ ᗪᗩTᗩ.
 
-*🔍 Features:*
-• Device & browser detection  
-• Approximate location  
-• Technical visit info  
-• Fast link tracking  
+🔍 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒:
+• 𝙳𝙴𝚅𝙸𝙲𝙴 & 𝙱𝚁𝙾𝚆𝙴𝚁𝚂 𝙳𝙴𝚃𝙴𝙲𝚃𝙸𝙾𝙽  
+• 𝙰𝙿𝙿𝚁𝙾𝚇𝙸𝙼𝙰𝚃𝙴 𝙻𝙾𝙲𝙰𝚃𝙸𝙾𝙽
+• 𝚃𝙴𝙲𝙷𝙽𝙸𝙲𝙰𝙻 𝚅𝙸𝚂𝙸𝚃 𝙸𝙽𝙵𝙾
+• 𝙵𝙰𝚂𝚃 𝙻𝙸𝙽𝙺 𝚃𝚁𝙰𝙲𝙺𝙸𝙽𝙶
 
-*🛡️ Usage Notice:*
-For educational and security-awareness purposes only.
+🛡️ 𝐔𝐒𝐀𝐆𝐄 𝐍𝐎𝐓𝐈𝐂𝐄:
+𝙵𝙾𝚁 𝙴𝙳𝚄𝙲𝙰𝚃𝙸𝙾𝙽 & 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈 - 𝙰𝚆𝙰𝚁𝙴𝙽𝙴𝚂𝚂 𝙿𝚄𝚁𝙿𝙾𝚂𝙴 𝙾𝙽𝙻𝚈.
 
 ━━━━━━━━━━━━━━━━━━
-📌 *Get Started*
-Type /help to see all commands.
+📌 𝐆𝐄𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 
+𝐓𝐘𝐏𝐄 /help 𝐓𝐎 𝐒𝐄𝐄 𝐀𝐋𝐋 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒.
 ━━━━━━━━━━━━━━━━━━
 
-🌌 _ANDROID H4CK — Powering the Cosmic Generation_ 🌌`,m);
+🌌 _𝐀𝐍𝐃𝐑𝐎𝐈𝐃 𝐇4𝐂𝐊  — 𝐏𝐎𝐖𝐄𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐂𝐎𝐒𝐌𝐈𝐂 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐈𝐎𝐍 🌌`,m);
 }
 else if(msg.text=="/create"){
 createNew(chatId);
