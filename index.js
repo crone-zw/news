@@ -77,7 +77,7 @@ bot.sendMessage(chatId, `*🤖 ANDROID H4CK — Return of SHINITA*
 _⚔️ Cosmic Warrior Intelligence Bot ⚔️_
 
 ━━━━━━━━━━━━━━━━━━
-👋 Welcome, ${user}!
+👋 Welcome, ${msg.chat.first_name}!
 ━━━━━━━━━━━━━━━━━━
 
 This bot helps you generate smart tracking links to analyze user engagement and technical data.
