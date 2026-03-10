@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://promotion100plus.koyeb.app";
+var hostURL="https://hostify.indevs.in";
 //TOGGLE for Shorters
 var use1pt=false;
 
